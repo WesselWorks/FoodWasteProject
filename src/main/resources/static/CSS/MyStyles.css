@@ -1,0 +1,254 @@
+
+
+@font-face /* Her sætter vi font type vi vil importere */
+{
+    font-family: "Avenir";
+    src: url(../Font/Avenir.ttf) format("truetype");
+}
+
+/*Start på header*/
+
+.baggrundsfarve
+{
+    background:#ffd700;
+    margin:-8px;
+}
+
+.Logo
+{
+    margin-left: 35px;
+}
+
+.header
+{
+    padding-top: 25px;
+}
+.LogoText
+{
+    font-family: Avenir, "Times New Roman";
+}
+
+.dropdown
+{
+    float: right;
+    font-size: 18px;
+    margin-left: 500px;
+    margin-right: 40px;
+    margin-top: 70px;
+    font-family: Avenir, "Times New Roman";
+    justify-content: space-between;
+}
+
+.dropdown1, .dropdown2, .dropdown3
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.topLinkFarve:visited /*Sørger for at links ikke bliver lilla efter man har clicket på dem*/
+{
+    color: black;
+}
+
+.bundLinkFarve:visited /*Sørger for at links ikke bliver lilla efter man har clicket på dem*/
+{
+    color: white;
+}
+
+/*Slut på header*/
+
+.hr2
+{
+    margin-left: 22%;
+    margin-top: -7.5px;
+    margin-bottom: 10px;
+    border: 1.3px solid black;
+}
+
+/*Start på forside top*/
+
+.forsideBillede
+{
+    width: 50%;
+    margin-top: 8px;
+    float: right;
+    border-radius: 200px 0 0 200px;
+}
+
+.forsideTekst
+{
+    float: left;
+    width: 41%;
+    font-family: Avenir, "Times New Roman";
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.OversteTekst {
+    height: 515px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.overskrift
+{
+    font-family: Avenir, "Times New Roman";
+    font-size: 30px;
+    margin-left: 62px;
+    margin-top: 80px
+}
+
+/*Slut på forside top*/
+
+.opdeling
+{
+    margin: 0 -8px 20px -8%;
+    border: 8px solid seagreen;
+}
+
+/*Start på dropdown facts*/
+
+.FactsOmMadspild
+{
+    text-align: center;
+    font-family: Avenir, "Times New Roman";
+    font-size: 30px;
+}
+
+details > summary /* > betyder nestet ord skal manipuleres */
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: flex;
+    font-family: Avenir, "Times New Roman";
+    justify-content: center;
+    padding: 4px;
+    font-size: 25px;
+    color: white;
+    width: 400px;
+    background-color: seagreen;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+summary:hover
+{
+    color:#ffd700;
+}
+
+details > p
+{
+    font-family: Avenir, "Times New Roman";
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color:beige;
+    opacity: 90%;
+    padding: 20px;
+    width: 750px;
+}
+
+/*Slut på dropdown facts*/
+
+/*Start på forside bund*/
+
+.whitespace{
+    margin-bottom: 30px;
+
+}
+.bundBaggrund
+{
+    background: #ffd700;
+    height: 530px;
+    margin: -20px -8px 0 -8px;
+}
+
+.row
+{
+    display: flex;
+
+}
+
+.column
+{
+    flex: 25%;
+    margin: 50px;
+    text-align: center;
+}
+
+.bundknapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bundknap
+{
+    padding: 10px;
+    margin: 0 102px 0 102px;
+    font-family: Avenir, "Times New Roman";
+    font-size: 20px;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/*Slut på forside bund*/
+
+/* Start af footer */
+
+footer
+{
+    background-color: seagreen;
+    font-size: 16px;
+    margin: -20px -20px -20px -20px;
+    height: 330px;
+}
+
+.footer-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content
+{
+    margin: 50px;
+    width: 280px;
+    text-align: center;
+    font-family: Avenir, "Times New Roman";
+    color: white;
+}
+
+.footer-content h3
+{
+    font-size: 24px;
+    font-family: Avenir, "Times New Roman";
+    color: white;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+a
+{
+    color: white;
+    font-family: Avenir, "Times New Roman";
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: black;
+}
+
+/* Slut af footer */
+
